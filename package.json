@@ -1,13 +1,20 @@
 {
-  "name": "scratchpad",
+  "name": "vue-scratchpad",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-      "start": "./node_modules/.bin/poi src/index.js"
+    "start": "npx poi src/index.js",
+    "build": "npx poi src/index.js"
   },
   "dependencies": {
     "poi": "^9.6.0",
     "rxjs": "^5.5.5"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "prettier": "^1.13.5"
   }
 }

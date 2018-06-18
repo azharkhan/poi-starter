@@ -4,10 +4,10 @@
 
 <script>
 export default {
-    data() {
-        return {
-            message: "👋🏽 🌎 Vue!"
-        }
+  data() {
+    return {
+      message: "👋🏽 🌎 Vue!"
     }
+  }
 }
 </script>

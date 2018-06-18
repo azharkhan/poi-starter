@@ -3,6 +3,6 @@ import App from './App.vue'
 import './style.css';
 
 new Vue({
-    el: '#app',
-    render: h => h(App)
+  el: '#app',
+  render: h => h(App)
 })
